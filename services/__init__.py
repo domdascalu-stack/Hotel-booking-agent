@@ -1,1 +1,1 @@
-
+from services import bedrock_agent_runtime
