@@ -27,6 +27,9 @@ agent_id = os.environ.get("BEDROCK_AGENT_ID")
 agent_alias_id = os.environ.get("BEDROCK_AGENT_ALIAS_ID", "TSTALIASID")  # TSTALIASID is the default test alias ID
 ui_title = os.environ.get("BEDROCK_AGENT_TEST_UI_TITLE", "Welcome to Hotel Booking Agent")
 ui_icon = os.environ.get("BEDROCK_AGENT_TEST_UI_ICON")
+st.write(f"DEBUG Agent ID: {agent_id}")
+st.write(f"DEBUG Alias ID: {agent_alias_id}")
+st.write(f"DEBUG Region: {os.environ.get('AWS_DEFAULT_REGION')}"
 
 
 def init_session_state():
