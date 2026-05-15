@@ -29,7 +29,7 @@ ui_title = os.environ.get("BEDROCK_AGENT_TEST_UI_TITLE", "Welcome to Hotel Booki
 ui_icon = os.environ.get("BEDROCK_AGENT_TEST_UI_ICON")
 st.write(f"DEBUG Agent ID: {agent_id}")
 st.write(f"DEBUG Alias ID: {agent_alias_id}")
-st.write(f"DEBUG Region: {os.environ.get('AWS_DEFAULT_REGION')}"
+st.write(f"DEBUG Region: {os.environ.get('AWS_DEFAULT_REGION')}")
 
 
 def init_session_state():
